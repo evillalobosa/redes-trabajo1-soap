@@ -1,3 +1,5 @@
 # Trabajo 1: Servicio Web SOAP
-Para el servidor: PHP <br>
-Para el cliente: HTML+CSS+JS
+
+Se utilizara para este trabajo:
++ Para el servidor: PHP
++ Para el cliente: HTML+CSS+JS
