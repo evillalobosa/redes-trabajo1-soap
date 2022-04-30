@@ -1,4 +1,4 @@
-<?php 
+<?php
 	class CurlRequest{
 		public function rutSendPost()
 		{
@@ -14,7 +14,6 @@
                 'stream_context' => $context,
                 'cache_wsdl' => WSDL_CACHE_NONE
             );
-            $client = new SoapClient($wsdlUrl, $soapClientOptions);
             $rut1 = $_POST['rut'];
             $rut2 = $_POST['dv'];
             $params = array('rut'=>$rut1,'dv'=>$rut2);
