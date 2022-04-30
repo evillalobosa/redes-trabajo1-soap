@@ -59,8 +59,10 @@
             $params = array('nombre'=>$nombre1);
             $resultado1 = $client-> Apellidos($params);
             $resultado2 = $client-> Nombres($params);
-            print_r($resultado1);
-            print_r($resultado2);
+            $test = $resultado1 -> ApellidosResult ->string;
+            foreach ($test as $value) {
+                print_r( "$value <br>");
+              }
             
         }
 
