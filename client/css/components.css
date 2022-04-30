@@ -74,9 +74,18 @@
 .description-section {
     display: flex;
     justify-content: space-around;
+    background-color: var(--accent);
     padding: 20px;
-    background-color: var(--acent);
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 35px;
 }
+.description-section a {
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: underline var(--white);
+}
+
 
 .methods {
     color: var(--white);

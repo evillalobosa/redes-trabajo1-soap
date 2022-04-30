@@ -24,11 +24,6 @@
                 <li>El aplicativo cliente hecho simplemente con HTML+CSS+PHP hace peticiones hacia el servidor hecho con .NET</li>
             </ul>
         </div>
-        <div class="description-section">
-            <a href="index.php?pagina=inicio">Inicio</a>
-            <a href="index.php?pagina=rut">Verificar rut</a>
-            <a href="index.php?pagina=nombre">Dividir Nombre</a>
-        </div>
         <div class="description-info">
             <div class="description-info-element">
                 <img class="icon" src="assets/utem.svg" alt="utem icon"> UTEM
@@ -40,6 +35,11 @@
                 <img class="icon" src="assets/github.svg" alt="github icon">
                 <a href="https://github.com/yowls/redes-trabajo1-soap">Repositorio</a>
             </div>
+        </div>
+        <div class="description-section">
+            <a href="index.php?pagina=inicio">Inicio</a>
+            <a href="index.php?pagina=rut">Verificar rut</a>
+            <a href="index.php?pagina=nombre">Dividir nombre</a>
         </div>
     </div>
     <div>
