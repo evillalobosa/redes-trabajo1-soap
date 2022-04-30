@@ -5,11 +5,19 @@
                 Este método consiste en recibir un nombre completo (nombres + apellidos) para<br>
                 mostrar estos valores en una estructura jerárquica
             </div>
+            <form action="" method="post" >
             <div class="method-fields">
-                <input type="text" class="method-field" placeholder="Nombre completo">
-                <button type="button" class="font-bold">Enter</button>
+                <input type="text" name="nombre" class="method-field" placeholder="Nombre completo">
+                <button type="sumbit" class="font-bold">Enter</button>
             </div>
-            <div class="method-result">
+            <?php
+		if($_POST){
+			$peticion = new CurlRequest();
+			$res_json = json_decode($peticion -> nombreSendPost(),true);
+			print $res_json;
+		}
+		?>
+          <!--   <div class="method-result">
                 <div class="result-vertical result-good">
                     <div class="result-nombre-title">
                         <img class="icon" src="assets/correct.png" alt="correct icon">
@@ -34,4 +42,4 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --> 
