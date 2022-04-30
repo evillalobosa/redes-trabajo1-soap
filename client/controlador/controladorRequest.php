@@ -9,7 +9,7 @@
             );
             $context = stream_context_create($opts);
         
-            $wsdlUrl = 'http://localhost/WebServiceDemo/webservice1.asmx?WSDL';
+            $wsdlUrl = 'http://localhost/server/webservice1.asmx?WSDL';
             $soapClientOptions = array(
                 'stream_context' => $context,
                 'cache_wsdl' => WSDL_CACHE_NONE
