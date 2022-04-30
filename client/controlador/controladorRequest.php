@@ -8,7 +8,7 @@
                 )
             );
             $context = stream_context_create($opts);
-        
+
             $wsdlUrl = 'http://localhost/server/webservice1.asmx?WSDL';
             $soapClientOptions = array(
                 'stream_context' => $context,
@@ -25,22 +25,22 @@
                 echo "<div class=\"method-result\">
                 <div class=\"result-horizontal result-good font-bold\">
                 <img class=\"icon\" src=\"assets/correct.png\" alt=\"correct icon\">
-                Digito validador correcto
+                D&iacutegito validador correcto
                 </div>
 
             </div>";
             }
 
             if($resultadoFinal == 0){
-                echo " 
+                echo "
             <div class=\"method-result\">
                 <div class=\"result-horizontal result-bad font-bold\">
                     <img class=\"icon\" src=\"assets/error.png\" alt=\"error icon\">
-                    Digito validador incorrecto
+                    D&iacutegito validador incorrecto
                 </div>
             </div>";
             }
 		}
-	
+
 }
-?>  
+?>

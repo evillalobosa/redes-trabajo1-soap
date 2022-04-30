@@ -7,10 +7,10 @@
 
     <title>API SOAP</title>
 
+    <link rel="icon" type="image/png" href="assets/favicon.ico"/>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    
     <!-- DESCRIPTION SECTION -->
     <div class="side description">
         <div class="description-title">
@@ -19,20 +19,15 @@
         </div>
         <div class="description-text">
             <ul>
-                <!-- TODO: fix words -->
                 <li>Este trabajo 1 consta de dos partes</li>
                 <li>Esta parte consiste en levantar un servidor con el cual se puedan hacer peticiones tipo SOAP aplicando los dos metodos descritos abajo.</li>
                 <li>El aplicativo cliente hecho simplemente con HTML+CSS+PHP hace peticiones hacia el servidor hecho con .NET</li>
-                <li>
-				<a href="index.php?pagina=inicio">Inicio</a>
-			</li>
-			<li>
-				<a href="index.php?pagina=nombre">Nombre propio</a>
-			</li>
-            <li>
-				<a href="index.php?pagina=rut">Verificar rut</a>	
-			</li>
             </ul>
+        </div>
+        <div class="description-section">
+            <a href="index.php?pagina=inicio">Inicio</a>
+            <a href="index.php?pagina=rut">Verificar rut</a>
+            <a href="index.php?pagina=nombre">Dividir Nombre</a>
         </div>
         <div class="description-info">
             <div class="description-info-element">
@@ -46,10 +41,9 @@
                 <a href="https://github.com/yowls/redes-trabajo1-soap">Repositorio</a>
             </div>
         </div>
-        
     </div>
     <div>
-    <?php 
+    <?php
 			if(isset($_GET['pagina'])){
 				if( $_GET['pagina'] == "rut" ||
 					$_GET['pagina'] == "nombre"){
@@ -63,7 +57,5 @@
 		 ?>
 
 	</div>
-  
-    
 </body>
 </html>

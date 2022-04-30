@@ -34,7 +34,7 @@
 }
 
 .description-title-main {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -42,7 +42,7 @@
 }
 
 .description-title-sub {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -71,6 +71,12 @@
     align-items: center;
 }
 
+.description-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: var(--acent);
+}
 
 .methods {
     color: var(--white);
@@ -89,7 +95,7 @@
 }
 
 .method-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -106,14 +112,14 @@
 }
 
 .method-field {
-    margin-right: 35px;
+    margin-right: 25px;
 }
 
 .field-rut {
     width: 130px;
 }
 .field-rutdv {
-    width: 80px;
+    width: 65px;
 }
 .field-nombre {
     width: 200px;
@@ -135,7 +141,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
@@ -144,7 +150,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
@@ -160,5 +166,5 @@
 }
 
 .result-nombre-element {
-    padding: 5px;
+    margin: 5px 25px;
 }
