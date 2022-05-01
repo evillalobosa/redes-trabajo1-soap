@@ -16,7 +16,9 @@
 			$res_json = json_decode($peticion -> nombreSendPost(),true);
 			print $res_json;
 		}
+        
 		?>
+        
           <!--   <div class="method-result">
                 <div class="result-vertical result-good">
                     <div class="result-nombre-title">

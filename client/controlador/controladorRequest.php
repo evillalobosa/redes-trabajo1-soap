@@ -59,12 +59,36 @@
             $params = array('nombre'=>$nombre1);
             $resultado1 = $client-> Apellidos($params);
             $resultado2 = $client-> Nombres($params);
-            $test = $resultado1 -> ApellidosResult ->string;
-            foreach ($test as $value) {
-                print_r( "$value <br>");
-              }
-            
+            $test = $resultado1 -> ApellidosResult -> string;
+            $test2 = $resultado2 -> NombresResult -> string;
+            echo"
+            <div class=\"method-result\">
+                <div class=\"result-vertical result-good\">
+                    <div class=\"result-nombre-title\">
+                        <img class=\"icon\" src=\"assets/correct.png\" alt=\"correct icon\">
+                        Estructura nombre ingresado
+                    </div>
+            ";
+            echo "
+            <div class=\"result-nombre\">
+                        <div class=\"result-nombre-element\">
+                            Nombres <br>";
+                            foreach ($test2 as $value) {
+                                echo "+ $value <br>";
+                              }
+            echo "</div>
+            <div class=\"result-nombre-element\">
+                Apellidos <br>";
+                foreach ($test as $value) {
+                    echo "+ $value <br>";
+                  }
+            echo "</div>
+            </div>";
+
         }
 
     }
+    /* 
+    
+    */
 ?>
