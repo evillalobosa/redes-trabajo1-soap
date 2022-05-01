@@ -49,7 +49,7 @@
                 )
             );
             $context = stream_context_create($opts);
-            $wsdlUrl = 'http://localhost/server/webservice1.asmx?WSDL';
+            $wsdlUrl = 'http://localhost:64030/WebService1.asmx?WSDL';
             $soapClientOptions = array(
                 'stream_context' => $context,
                 'cache_wsdl' => WSDL_CACHE_NONE
@@ -61,6 +61,7 @@
             $resultado2 = $client-> Nombres($params);
             $test = $resultado1 -> ApellidosResult -> string;
             $test2 = $resultado2 -> NombresResult -> string;
+            if(gettype($test) == 'array'){
             echo"
             <div class=\"method-result\">
                 <div class=\"result-vertical result-good\">
@@ -89,6 +90,16 @@
                   }
             echo "</div>
             </div>";
+            }
+            else{
+                echo " 
+                <div class=\"method-result\">
+                <div class=\"result-horizontal result-bad font-bold\">
+                    <img class=\"icon\" src=\"assets/error.png\" alt=\"error icon\">
+                    Nombre incompleto o mal ingresado
+                </div>
+            </div>";
+            }
 
         }
 
