@@ -73,9 +73,14 @@
             <div class=\"result-nombre\">
                         <div class=\"result-nombre-element\">
                             Nombres <br>";
+                            if(gettype($test2) =='string'){
+                                echo "+ $test2 <br>";
+                            }
+                            else{
                             foreach ($test2 as $value) {
                                 echo "+ $value <br>";
                               }
+                            }
             echo "</div>
             <div class=\"result-nombre-element\">
                 Apellidos <br>";
@@ -88,7 +93,4 @@
         }
 
     }
-    /* 
-    
-    */
 ?>
