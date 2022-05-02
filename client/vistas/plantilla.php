@@ -44,10 +44,11 @@
     </div>
     <div>
     <?php
-			if(isset($_GET['pagina'])){
-				if( $_GET['pagina'] == "rut" ||
-					$_GET['pagina'] == "nombre"){
-					include "vistas/".$_GET['pagina'].".php";
+             $pagina="pagina";
+			if(isset($_GET[$pagina])){
+				if( $_GET[$pagina] == "rut" ||
+					$_GET[$pagina] == "nombre"){
+					include "vistas/".$_GET[$pagina].".php";
 				}else{
 					include "vistas/inicio.php";
 				}

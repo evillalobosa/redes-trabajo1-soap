@@ -18,30 +18,3 @@
 		}
         
 		?>
-        
-          <!--   <div class="method-result">
-                <div class="result-vertical result-good">
-                    <div class="result-nombre-title">
-                        <img class="icon" src="assets/correct.png" alt="correct icon">
-                        Estructura nombre ingresado
-                    </div>
-                    <div class="result-nombre">
-                        <div class="result-nombre-element">
-                            Nombres <br>
-                            + nombre1 <br>
-                            + nombre2
-                        </div>
-                        <div class="result-nombre-element">
-                            Apellidos <br>
-                            + apellido1 <br>
-                            + apellido2
-                        </div>
-                    </div>
-                </div>
-                <div class="result-horizontal result-bad font-bold">
-                    <img class="icon" src="assets/error.png" alt="error icon">
-                    Nombre incompleto o mal ingresado
-                </div>
-            </div>
-        </div>
-    </div> --> 

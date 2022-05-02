@@ -18,7 +18,6 @@
             $rut1 = $_POST['rut'];
             $rut2 = $_POST['dv'];
             $params = array('rut'=>$rut1,'dv'=>$rut2);
-            $client = new SoapClient($wsdlUrl, $soapClientOptions);
             $resultadoF = $client-> verificaRut($params);
             $resultadoFinal = $resultadoF->verificaRutResult;
             if($resultadoFinal == 1){
