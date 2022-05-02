@@ -1,7 +1,0 @@
-﻿C:\Users\Matias\source\repos\WebApplication3\WebApplication3\Properties\AssemblyInfo.cs
-C:\Users\Matias\source\repos\WebApplication3\WebApplication3\WebService1.asmx.cs
-C:\Users\Matias\source\repos\WebApplication3\WebApplication3\Web.config
-C:\Users\Matias\source\repos\WebApplication3\WebApplication3\WebService1.asmx
-C:\Users\Matias\source\repos\WebApplication3\WebApplication3\packages.config
-C:\Users\Matias\source\repos\WebApplication3\WebApplication3\Web.Debug.config
-C:\Users\Matias\source\repos\WebApplication3\WebApplication3\Web.Release.config
