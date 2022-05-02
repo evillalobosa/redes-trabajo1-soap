@@ -18,11 +18,6 @@ namespace WebApplication3
     {
 
         [WebMethod]
-        public string HelloWorld()
-        {
-            return "Hello World";
-        }
-        [WebMethod]
         public int verificaRut(int rut, string dv)
         {
             dv= string.Join("", dv.Split(default(string[]), StringSplitOptions.RemoveEmptyEntries));
@@ -78,8 +73,7 @@ namespace WebApplication3
         [WebMethod]
         public List<string> Nombres(string nombre)
         {
-            List<string> list = new List<string>();
-            list = nombre.Split(' ').ToList();
+            List<string> list = nombre.Split(' ').ToList();
             list.RemoveAll(string.IsNullOrWhiteSpace);
             List<string> pError = new List<string> { "0"};
             if (list.Count < 3)
@@ -93,8 +87,7 @@ namespace WebApplication3
         [WebMethod]
         public List<string> Apellidos(string nombre)
         {
-            List<string> list = new List<string>();
-            list = nombre.Split(' ').ToList();
+            List<string> list = nombre.Split(' ').ToList();
             List<string> pError = new List<string> { "0" };
             list.RemoveAll(string.IsNullOrWhiteSpace);
             if (list.Count < 3)
