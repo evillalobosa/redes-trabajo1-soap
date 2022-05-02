@@ -1,0 +1,4 @@
+File name	Line	Function	Duration[ms]	Explored nodes
+C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\WebService1.asmx.cs	19	_WebApplication3.WebService1.verificaRut$int.string$	2	266
+C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\WebService1.asmx.cs	72	_WebApplication3.WebService1.Nombres$string$	0	4
+C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\WebService1.asmx.cs	86	_WebApplication3.WebService1.Apellidos$string$	3	305

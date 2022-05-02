@@ -1,0 +1,7 @@
+﻿C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\Properties\AssemblyInfo.cs
+C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\WebService1.asmx.cs
+C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\Web.config
+C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\WebService1.asmx
+C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\packages.config
+C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\Web.Debug.config
+C:\xampp\htdocs\redes-trabajo1-soap\CodigoFuente\WebApplication3\Web.Release.config
